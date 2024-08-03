@@ -27,3 +27,6 @@ group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
 end
+
+gem "jekyll", "3.9.5"
+gem "github-pages", group: :jekyll_plugins
