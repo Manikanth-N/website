@@ -3,12 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Manikanth
+middle_name: 
+last_name: Nanankala
+email: manikanth.nk1@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Aeronautical Engineer and UAV Specialist.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -48,7 +48,7 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 bib_search: true
@@ -132,8 +132,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name:  Flight Code Chronicles # blog_name will be displayed in your blog page
+blog_description: Welcome to Flight Code Chronicles! Explore UAV firmware development and aeronautical engineering with technical insights, innovative breakthroughs, and a touch of humor. Whether you're an aspiring drone developer, seasoned coder, or flight enthusiast, join us on an exhilarating journey through rotorcraft technology and aerial adventures. Decode the complexities of flight and soar to new horizons in aeronautics with us!
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -142,7 +142,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -312,8 +312,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Nanankala]
+  first_name: [Manikanth, M.]
 
   style: apa
   locale: en
