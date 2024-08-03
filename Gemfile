@@ -1,4 +1,6 @@
 source 'https://rubygems.org'
+gem "jekyll", "3.9.5"
+gem "github-pages", group: :jekyll_plugins
 group :jekyll_plugins do
     gem 'classifier-reborn'
     gem 'jekyll'
@@ -28,5 +30,3 @@ group :other_plugins do
     gem 'httparty'
 end
 
-gem "jekyll", "3.9.5"
-gem "github-pages", group: :jekyll_plugins
